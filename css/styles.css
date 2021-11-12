@@ -278,7 +278,6 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1200px;
   margin: auto;
 }
 
@@ -404,7 +403,6 @@ a:focus {
 /* ====== FOOTER ============= */
 
 .footer {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--secondary-background-color);
