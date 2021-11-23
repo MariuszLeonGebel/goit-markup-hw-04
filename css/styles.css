@@ -185,7 +185,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #2f303a;
-  width: 1600px;
+  /* width: 1600px; */
   height: 450px;
   margin: auto auto 50px;
 }  
@@ -315,7 +315,7 @@ a:focus {
 
 .section3 .container ul {
   display: flex;
-  justify-content: space-around; 
+  justify-content: center; 
 }
 
 .social-media-icons {
@@ -477,7 +477,7 @@ a:focus {
   display: block;
   width: 44px;
   height: 44px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   margin-right: 12px;
 }
@@ -494,7 +494,7 @@ a:focus {
   align-items: center;
 }
 
-.footer-social-media-icons-icon:hover {
+.footer-social-media-icons-icon {
   fill: #fff;
 }
 
