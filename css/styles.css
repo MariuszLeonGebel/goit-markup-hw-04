@@ -315,13 +315,17 @@ a:focus {
 
 .section3 .container ul {
   display: flex;
-  justify-content: center; 
+  justify-content: space-between;
+}
+
+.section3 .container ul ul {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .social-media-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 16px;
   padding-bottom: 30px;
 }
